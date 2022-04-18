@@ -8,7 +8,7 @@ namespace TeamCitySetup.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.IsTrue(1 == 1);
+            Assert.IsTrue(1 == 0);
         }
     }
 }
