@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCitySetup.Web", "TeamCitySetup.Web\TeamCitySetup.Web.csproj", "{7C0B4B6B-29BD-4F28-97A6-4E5F28894968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamCitySetup.Web", "TeamCitySetup.Web\TeamCitySetup.Web.csproj", "{7C0B4B6B-29BD-4F28-97A6-4E5F28894968}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCitySetup.Tests", "TeamCitySetup.Tests\TeamCitySetup.Tests.csproj", "{CFCACA5E-2089-49EA-81DE-FD63E8BF3309}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamCitySetup.Tests", "TeamCitySetup.Tests\TeamCitySetup.Tests.csproj", "{CFCACA5E-2089-49EA-81DE-FD63E8BF3309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCitySetup.IntegrationTests", "TeamCitySetup.IntegrationTests\TeamCitySetup.IntegrationTests.csproj", "{BD8A8F5F-9997-4EB8-91E8-BD916125B949}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CFCACA5E-2089-49EA-81DE-FD63E8BF3309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFCACA5E-2089-49EA-81DE-FD63E8BF3309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFCACA5E-2089-49EA-81DE-FD63E8BF3309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD8A8F5F-9997-4EB8-91E8-BD916125B949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8A8F5F-9997-4EB8-91E8-BD916125B949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8A8F5F-9997-4EB8-91E8-BD916125B949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD8A8F5F-9997-4EB8-91E8-BD916125B949}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
